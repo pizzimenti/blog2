@@ -1,6 +1,6 @@
 {{yield}}
 <ul>
   {{#each model as |blog|}}
-    <li>{{blog-tile blog=blog}}</li>
+    <li>{{blog-tile blog=blog sendDelete="sendDelete"}}</li>
   {{/each}}
 </ul>
