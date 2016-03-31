@@ -1,1 +1,6 @@
 {{yield}}
+<form>
+  <label for="title">Blog Title:></label>
+  {{input value=title}}
+  <button {{action "saveNewBlog"}}>Submit</button>
+</form>
