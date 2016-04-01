@@ -1,3 +1,5 @@
 {{yield}}
 <h2>{{blog.title}}</h2>
 <button {{action "sendDelete" blog}}>Delete</button>
+<button {{action "setUpdateFlag"}}>Update</button>
+{{#if updateFlag}}{{/if}}
